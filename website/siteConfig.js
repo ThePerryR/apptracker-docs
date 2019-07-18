@@ -16,16 +16,13 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site' /* title for your website */,
-  tagline: 'A website for testing',
-  url: 'https://facebook.github.io' /* your website url */,
-  baseUrl: '/test-site/' /* base url for your project */,
-  projectName: 'test-site',
+  title: 'AppTracker Documentation' /* title for your website */,
+  tagline: 'Learn how to use AppTracker for managing applications',
+  url: 'https://apptracker.ftlfinance.com' /* your website url */,
+  baseUrl: '/docs/' /* base url for your project */,
+  projectName: 'apptracker-docs',
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {doc: 'applicant-overview', label: 'Docs'}
   ],
   users,
   /* path to images for header/footer */
